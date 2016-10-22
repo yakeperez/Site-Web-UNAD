@@ -1,6 +1,11 @@
 /*font-family: 'Shadows Into Light', cursive;
  font-family: 'Indie Flower', cursive;
 */
+
+	@font-face {
+    font-family:"Roboto Condensed";
+    src: url(/fonts/Roboto/RobotoCondensed-Regular.ttf);
+	}
             #apDiv1 {
 	position: absolute;
 	width: 1000px;
@@ -226,10 +231,10 @@ div {
 }
         #apDiv24 {
 	position: absolute;
-	width: 531px;
+	width: 696px;
 	height: 21px;
 	z-index: 1;
-	left: 220px;
+	left: 155px;
 	top: 142px;
 	color: #006680;
 	border-top-color: #006680;
@@ -270,6 +275,12 @@ div {
 	margin: auto;
 	position: relative;
 	color: #000;
+}
+
+#contentInfo{
+	overflow: hidden;
+    height: 720px;
+    overflow-y: scroll;
 }
 /*ETIQUETAS*/
 body{
@@ -316,7 +327,7 @@ ul{
 margin: auto;
 padding-top: 4px;
 }
-li{
+ul.menu li{
 	float: left;
 	list-style-type: none;
 	padding: 13px;
@@ -388,4 +399,32 @@ p {
 	font-size: 12px;
 	font-weight: normal;
 	color: #333;
+}
+
+.alg-right{
+    text-align: right;
+}
+
+.alg-left{
+    text-align: left;
+}
+
+.alg-center{
+    text-align: center;
+}
+
+.alg-justify{
+	text-align: justify;
+}
+
+.margin-20{
+	margin: 20px;
+}
+
+.mg-top {
+    margin-top: 15px;
+}
+
+.bold{
+    font-weight: bolder;
 }
