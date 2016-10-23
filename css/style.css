@@ -277,13 +277,13 @@ div {
 	color: #000;
 }
 
-#contentInfo{
+#paginasMenu{
 	overflow: hidden;
     height: 720px;
     overflow-y: scroll;
 }
 /*ETIQUETAS*/
-body{
+#bodyPrinccipal{
 
 background-repeat: no-repeat;
 background-size: cover;

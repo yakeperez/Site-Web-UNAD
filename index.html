@@ -14,7 +14,7 @@
         <link rel="stylesheet" href="css/style.css">
      </head>
 
-    <body>	
+    <body id="bodyPrinccipal">	
         <Div id="contenidos">
             <header>
                 <div id="apDiv1"><img src="img/banner.jpg" width="1000" height="168">
@@ -26,11 +26,11 @@
             <p>&nbsp;</p>
     		    <nav>
               <ul class="menu">
-                <li><a href="index.html" class="menu">Inicio</a></li>
-                <li><a href="lecturas.html" class="menu">Lecturas</a></li>
-                <li><a href="multimedia.html" class="menu">Multimedia</a></li>
-                <li><a href="actividades.html" class="menu">Actividades</a></li>
-                <li><a href="autores.html" class="menu">Autores</a></li>
+                <li><a href="pages/inicio.html" class="menu" target="paginasMenu">Inicio</a></li>
+                <li><a href="pages/lecturas.html" class="menu" target="paginasMenu">Lecturas</a></li>
+                <li><a href="pages/multimedia.html" class="menu" target="paginasMenu">Multimedia</a></li>
+                <li><a href="pages/actividades.html" class="menu" target="paginasMenu">Actividades</a></li>
+                <li><a href="pages/autores.html"  class="menu" target="paginasMenu">Autores</a></li>
                 <div id="apDiv19">
                 <center>
               	<div id="cuentavisitas"></div>
@@ -54,6 +54,7 @@
 							   var mensaje = num + " visitas";
 							   yu( 'cuentavisitas' ).innerHTML = mensaje;
                }
+
             </script>
                 </center></div>
 
@@ -101,56 +102,9 @@
     </div>
     
     <article>
-        
-        <div id="contentInfo">
-        
-        <table>
-          <tr>
-            <td><div class="mg-top bold">Información General Curso Herramientas ETL</div></td>
-          </tr>
-          <tr>
-            <td >
-              <div class="alg-justify margin-20">El curso está dirigido a estudiantes de los programas de pregrado tecnología en desarrollo de software que oferta la UNAD (Universidad Nacional Abierta y a Distancia), bajo la modalidad de educación superior abierta y a distancia.<br><br>
-
-              El curso está estructurado en tres (3) unidades. Donde cada una de las partes fue seleccionado, teniendo en cuenta los saberes mínimos que se esperaría debe alcanzar un estudiante de la UNAD al culminar sus estudios en el curso. La unidad uno, fundamenta al estudiante en la introducción a las herramientas ETL, la segunda lo fundamenta en el procesamiento y simulación en con herramientas MODELOS ETL y la tercera herramientas MODELOS ETL más usadas.<br><br>
-
-              La metodología que se emplea es educación a distancia apoyada en tecnologías sincrónicas, tales como Skype, Webconference  asincrónicas, tales como, foros, correos electrónicos y simuladores, entre otras. Además, se enfoca hacia estudios de casos para la elaboración de los trabajos colaborativos en cada una de las unidades y el aprendizaje por proyecto para el trabajo final.<br><br>
-
-
-              El curso pretende el estudio de  un conjunto de Herramientas tecnológicas  y aplicaciones que permiten simular y entender de manera más acorde el proceso que se lleva a cabo con las herramientas MODELOS ETL y las bondades que ofrece.<br><br></div>
-            </td>
-          </tr>
-        </table>
-        
-        <table>
-          <tr>
-            <td><div class="bold">Propósito del Curso</div></td>
-          </tr>
-          <tr>
-            <td>
-              <div class="alg-justify margin-20">Profundizar en el uso y aplicación de las herramientas para procesos MODELOS ETL( Extracción, Transformación y Carga de cualquier sistema), y que son especialmente útiles para el Data Warehousing, cuando se construyen sistemas de Data Warehouse en proyectos de Business Intelligence.<br><br></div>
-            </td>
-          </tr>
-        </table>
-
-
-        <table>
-          <tr>
-            <td><div class="bold">Competencias Generales</div></td>
-          </tr>
-          <tr>
-            <td>
-              <ul class="alg-justify margin-20">
-                <li type="circle">Lograr la participación de los estudiantes sobre los sistemas operacionales en los que podrán modificar las reglas de integridad, los disparadores y las aplicaciones de los sistemas operacionales.</li>
-                <li type="circle">Construir y  documentar todas las fuentes de datos.</li>
-                <li type="circle">Proponer y definir los procesos de transformación y liderarlos desde su inicio hasta su final.</li>
-                <li type="circle">Gerenciar y proponer el nombramiento de personas responsables de la calidad del sistema (Data Quality Manager).</li>
-              </ul>
-            </td>
-          </tr>
-        </table>
-
-      </div>
+         <div id="contentInfo">
+            <iframe src="pages/inicio.html" name="paginasMenu" id="paginasMenu" style=" width:100%; height:720px; border:0;" ></iframe>
+         <div id="contentInfo">
 		</article>
 
     </section>
