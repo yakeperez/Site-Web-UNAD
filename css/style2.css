@@ -140,16 +140,25 @@ p {
 
  li {
 	font-family:'Nobile',sans-serif;
-	font-size:15px;
+	font-size:16px;
 	text-align:justify;
 	color:black;
 	margin-top: auto;
   }
 
+#lista{
+
+	font-family:'Nobile',sans-serif;
+	margin:0px;
+	padding:0px;
+	font-size:16px;
+	color:#FF5900;
+	text-align:justify;
+}
 
 #titulo {
 	font-family:'Nobile',sans-serif;
-	margin:0px;
+	margin-top: 30px;
 	padding:0px;
 	font-size:23px;
 	text-shadow:2px 2px 5px rgba(0,0,0,0.5);
