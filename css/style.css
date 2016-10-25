@@ -2,11 +2,7 @@
  font-family: 'Indie Flower', cursive;
 */
 
-	@font-face {
-    font-family:"Roboto Condensed";
-    src: url(/fonts/Roboto/RobotoCondensed-Regular.ttf);
-	}
-            #apDiv1 {
+	#apDiv1 {
 	position: absolute;
 	width: 1000px;
 	height: 168px;
@@ -289,6 +285,10 @@ background-repeat: no-repeat;
 background-size: cover;
 background-color: #666;
 }
+body{
+	font-family:'Nobile',sans-serif;
+}
+
 h1{
 	font-family: Arial, Helvetica, sans-serif;
 	color: white;
